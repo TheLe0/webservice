@@ -40,7 +40,10 @@ public class WebService {
         method = "";
         ignore_type = false;
     }
-
+    
+    // Métodos Http de solicitação
+  
+    
     public void POST(String page) {
         prepare(page, "POST", "", "");
     }
@@ -88,6 +91,16 @@ public class WebService {
     public void DELETE(String page, String action, String param) {
         prepare(page, "DELETE", action, param);
     }
+    
+    //TODO
+    
+    /**
+    * HEAD, 
+    * TRACE, 
+    * CONNECT, 
+    * OPTIONS
+    */
+    
 
     /**
      * Prepara a query
