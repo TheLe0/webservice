@@ -1,4 +1,4 @@
-package rtools;
+package ws;
 
 /**
  * Retorna o status http da requisição
